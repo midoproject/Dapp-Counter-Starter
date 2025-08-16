@@ -1,0 +1,16 @@
+# Dependencies
+**/node_modules
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+
+# Builds & caches
+**/dist
+**/.next
+**/.turbo
+**/artifacts
+**/cache
+
+# Env
+**/.env
+**/.env.*
