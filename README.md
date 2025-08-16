@@ -1,4 +1,4 @@
-# Counter DApp (EVM) — Hardhat + React (Vite) + Wagmi
+# Counter DApp (EVM) - Hardhat + React (Vite) + Wagmi
 
 A minimal, production-ready starter to learn fullstack Web3:
 - **Smart contract**: Solidity `Counter` with `getCount()` and `increment()`.
@@ -104,3 +104,5 @@ scopes: `repo`. Paste the token when prompted.
 - Verify contract on Etherscan; add a `verify` script.
 - Ship the frontend (Vercel/Netlify) and point it to your deployed address.
 ```
+```
+## ©️ Project Lisense by Mido
