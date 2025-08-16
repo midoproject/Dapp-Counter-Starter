@@ -8,7 +8,7 @@ A minimal, production-ready starter to learn fullstack Web3:
 
 ---
 
-## 0) Prerequisites
+## 1) Prerequisites
 - Node.js 18+ (recommended 20+), Git.
 - A wallet (MetaMask).
 - Sepolia test ETH (Google “Sepolia faucet” for options).
@@ -22,7 +22,7 @@ node -v && npm -v && git --version
 
 ---
 
-## 1) Deploy the contract (Sepolia)
+## 2) Deploy the contract (Sepolia)
 ```bash
 cd contracts
 npm install
@@ -38,7 +38,7 @@ npm run deploy:sepolia
 
 ---
 
-## 2) Run the frontend
+## 3) Run the frontend
 ```bash
 cd ../frontend
 npm install
@@ -56,7 +56,7 @@ App actions:
 
 ---
 
-## 3) Push to GitHub (first time)
+## 4) Push to GitHub (first time)
 Create an empty repo on GitHub. Then run:
 ```bash
 git init
@@ -75,14 +75,14 @@ scopes: `repo`. Paste the token when prompted.
 
 ---
 
-## 4) Common pitfalls
+## 5) Common pitfalls
 - `Authentication failed`: use a PAT for `git push`. Check `git remote -v` URL and your `<username>/<repo>`.
 - `Invalid or missing PRIVATE_KEY/RPC_URL`: ensure `.env` exists in `contracts/` and values are correct.
 - `No Sepolia ETH`: get test ETH from a faucet and ensure MetaMask network is **Sepolia**.
 
 ---
 
-## 5) What’s inside?
+## 6) What’s inside?
 
 ### contracts/
 - `contracts/Counter.sol` — simple onchain counter
@@ -99,7 +99,7 @@ scopes: `repo`. Paste the token when prompted.
 
 ---
 
-## 6) Next steps
+## 7) Next steps
 - Add `decrement()`, events list, or a simple “guestbook”.
 - Verify contract on Etherscan; add a `verify` script.
 - Ship the frontend (Vercel/Netlify) and point it to your deployed address.
